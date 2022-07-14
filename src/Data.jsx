@@ -2,7 +2,7 @@ const DATA = [
     {
     "id": 1,
     "name": "Benq Led Monitor Ex2780q Metallic 2k 144hz",
-    "price": 119999,
+    "price": 119.999,
     "category": "Monitores",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/img/products/monitor_benq.png"
@@ -10,7 +10,7 @@ const DATA = [
     {
     "id": 2,
     "name": "Auriculares Cat Ear Headset Plegable Led Light Cosplay",
-    "price": 9809,
+    "price": 9.809,
     "category": "Audio",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3",
     "image": "/assets/img/products/auriculares-girl.png"
@@ -18,7 +18,7 @@ const DATA = [
     {
     "id": 3,
     "name": "Mouse inalámbrico Logitech Lightspeed blue",
-    "price": 3399,
+    "price": 3.399,
     "category": "Periféricos",
     "description": "Los dispositivos Logitech cuentan con un diseño ergonómico pensado para tu confort. Lightspeed es una tecnología ultrarrápida y confiable con desempeño probado en competencias por profesionales. No vuelvas a preocuparte por la duración de la batería. Simplemente, el mouse se mantiene cargado.",
     "image": "/assets/img/products/mouse-cyan.png"
@@ -26,7 +26,7 @@ const DATA = [
     {
     "id": 4,
     "name": "Monitor Gamer 24 Viewsonic 240hz",
-    "price": 83999,
+    "price": 83.999,
     "category": "Monitores",
     "description": "La tecnología AMD FreeSync™ Premium sincroniza el monitor con la salida GPU, que elimina fragmentaciones y retraso en la pantalla. La tecnología Fast-IPS combina colores intensos, un contraste sorprendente y amplios ángulos de visión, y, a su vez, ofrece tiempos de respuesta hasta 4 veces más rápidos que las pantallas tradicionales.",
     "image": "/assets/img/products/monitor-omni.png"
@@ -34,7 +34,7 @@ const DATA = [
     {
     "id": 5,
     "name": "Monitor gamer Gadnic G4D71N-F 27",
-    "price": 31999,
+    "price": 31.999,
     "category": "Monitores",
     "description": "Este monitor de 27 te va a resultar cómodo para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1920 x 1080 te permite disfrutar de momentos únicos gracias a una imagen de alta fidelidad.",
     "image": "/assets/img/products/monitor_gadnig.png"
@@ -42,7 +42,7 @@ const DATA = [
     {
     "id": 6,
     "name": "Tablet con funda Gadnic Taurus 10.1",
-    "price": 35399,
+    "price": 35.399,
     "category": "Notebooks",
     "description": "Esta tablet es ideal para cada una de tus actividades: editar fotos, documentos, navegar por internet y ¡mucho más! Su diseño delgado, compacto y portátil es la combinación perfecta de rendimiento y versatilidad.",
     "image": "/assets/img/products/tablet_blanca.png"
@@ -50,7 +50,7 @@ const DATA = [
     {
     "id": 7,
     "name": "Mouse inalámbrico recargable Razer Basilisk Ultimate",
-    "price": 20278,
+    "price": 20.278,
     "category": "Periféricos",
     "description": "La funcionalidad al alcance de tu mano: El sistema de detección de movimiento óptico te permitirá mover el cursor de una manera más precisa y sensible que en los sistemas tradicionales. Rapidez y confiabilidad de los botones. Con sus 11 botones podrás tener mayor control e independencia para ejecutar.",
     "image": "/assets/img/products/mouse-razer-basilik.png"
@@ -58,7 +58,7 @@ const DATA = [
     {
     "id": 8,
     "name": "Auriculares gamer HyperX Cloud Stinger negro",
-    "price": 17999,
+    "price": 17.999,
     "category": "Audio",
     "description": "¡Experimentá la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida. Con los HyperX Stinger no te perdés ningún detalle y escuchás el audio tal y como fue diseñado por los creadores.",
     "image": "/assets/img/products/auricular-hiper-x.png"
@@ -66,7 +66,7 @@ const DATA = [
     {
     "id": 9,
     "name": "Teclado gamer Razer BlackWidow V3 QWERTY Green inglés US color rosa con luz RGB",
-    "price": 20934,
+    "price": 20.934,
     "category": "Periféricos",
     "description": "Distinción a todo color. Su retroiluminación le da un toque diferente a tu equipo y resalta su composición cuando es utilizado en espacios poco iluminados.",
     "image": "/assets/img/products/razer_blackwidow_v3_rosa.png"
@@ -74,7 +74,7 @@ const DATA = [
     {
     "id": 10,
     "name": "Teclado gamer bluetooth Logitech Serie G G915 TKL inglés US color blanco con luz RGB",
-    "price": 25999,
+    "price": 25.999,
     "category": "Periféricos",
     "description": "G915 TKL es una nueva clase de teclado mecánico inalámbrico para gaming con tres opciones de interruptores GL de perfil bajo y tecnología inalámbrica LIGHTSPEED profesional de 1 ms. Es capaz de ofrecer 40 horas de gaming ininterrumpido con una carga completa.",
     "image": "/assets/img/products/logitech_g915_tkl.png"
@@ -82,7 +82,7 @@ const DATA = [
     {
     "id": 11,
     "name": "Parlante JBL Go 2 portátil con bluetooth midnight black 110V/220V",
-    "price": 4899,
+    "price": 4.899,
     "category": "Audio",
     "description": "El parlante portátil JBL Go 2 tiene todas las funciones que necesitás para llevarlo y usarlo en cualquier lugar. Con el bluetooth vas a tener la facilidad de poner música desde tu smartphone, tablet o computadora. Pero además, tiene una función específica para conferencias telefónicas, que cancela el ruido del ambiente y ofrece un sonido claro y nítido de la voz.",
     "image": "/assets/img/products/parlante_ jbl_go_ 2_portátil.png"
@@ -90,7 +90,7 @@ const DATA = [
     {
     "id": 12,
     "name": "Auricular inalámbrico bluetooth JBL Tune 510BT blanco",
-    "price": 6499,
+    "price": 6.499,
     "category": "Audio",
     "description": "En la calle, en el colectivo o en la oficina, tené siempre a mano tu auricular JBL y ¡escapate de la rutina por un rato! Vas a poder disfrutar de la música que más te gusta y recibir llamadas telefónicas claras donde sea que te encuentres, sin perder contacto con el entorno. Bluetooth de última generación.",
     "image": "/assets/img/products/auricular_inalámbrico_jbl_tune_blanco.png"

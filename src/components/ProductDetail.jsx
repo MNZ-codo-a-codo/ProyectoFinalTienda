@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { useState } from "react";
 import DATA from '../Data'
 import { useDispatch } from "react-redux";
@@ -8,7 +8,7 @@ import { addItem, delItem } from './redux/actions/index.js'
 const ProductDetail = () => {
     const [ cartBtn, setCartBtn ] = useState("Añadir al Carrito")
     const proid = useParams();
-    const proDetail = DATA.filter(x=>x.id === proid.id);
+    const proDetail = DATA.filter(x=>x.id == proid.id);
     const product = proDetail[0];
     console.log(product);
 
@@ -36,7 +36,10 @@ const ProductDetail = () => {
                         <hr />
                         <h2 className="my-4"> $ {product.price} </h2>
                         <p className="lead"> {product.description} </p>
-                        <button onClick={()=>handleCart(product)} className="btn btn-outline-primary my-5"> {cartBtn} </button>
+                        <div className="col-md-12 d-flex flex-column justify-content-center">
+                            <button onClick={()=>handleCart(product)} className="btn btn-outline-primary px-4 py-2 my-1"> {cartBtn} </button>
+                            <NavLink to='/cart' className="btn btn-outline-primary my-2"> Ir al Carrito </NavLink>
+                        </div>
                     </div>
                 </div>
             </div>

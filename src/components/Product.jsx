@@ -3,25 +3,24 @@ import DATA from '../Data';
 import {NavLink} from 'react-router-dom';
 
 const Product = () => {
-
-    const [data, setData] = useState([]);
-    const [filter, setFilter] = useState(data);
+    const [filter, setFilter] = useState(DATA);
   
 
     const filterProduct = (cat) => {
         const updatedList = DATA.filter((x)=> x.category === cat);
         setFilter(updatedList);
     }
+    
 
     const ShowProducts = () => {
         return (
             <>
                 <div className="buttons d-flex justify-content-center mb-5 pb-5 ">
-                    <button className="btn btn-outline-dark me-2" onClick={()=>setFilter(DATA)}> Todos </button>
-                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("Periféricos")}> Perifericos </button>
-                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("Audio")}> Audio </button>
-                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("Monitores")}> Monitores </button>
-                    <button className="btn btn-outline-dark me-2" onClick={()=>filterProduct("Notebooks")}> Notebooks </button>
+                    <button className="btn btn-outline-primary me-2" onClick={()=>setFilter(DATA)}> Todos </button>
+                    <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("Periféricos")}> Perifericos </button>
+                    <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("Audio")}> Audio </button>
+                    <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("Monitores")}> Monitores </button>
+                    <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("Notebooks")}> Notebooks </button>
                 </div>
 
                 {filter.map((item) => {
@@ -43,8 +42,6 @@ const Product = () => {
             </>
         )
     }
-
-
 
     // const cardItem = (item) => {
     //     return (
