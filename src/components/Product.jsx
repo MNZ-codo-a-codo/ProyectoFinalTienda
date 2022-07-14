@@ -27,9 +27,9 @@ const Product = () => {
 
                     return (
                      
-                        <div className="col-md-3 mb-4">
-                            <div className="card my-5 py-4" key={item.id} style={{ width: "18rem" }}>
-                                <img src={item.image} className="card-img-top mw-100" alt={item.name} height="300px" width="500px"/>
+                        <div className="col-md-3 mb-4 ">
+                            <div className="card my-5 py-4" key={item.id} style={{ Width: "18rem " }} >
+                                <img src={item.image} className="card-img-top " alt={item.name} height= '300px' />
                                 <div className="card-body text-center">
                                     <h5 className="card-title"> {item.name.substring(0,12)}...</h5> 
                                     <p className='lead'> $ {item.price} </p>

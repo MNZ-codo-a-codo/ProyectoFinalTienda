@@ -37,8 +37,8 @@ const ProductDetail = () => {
                         <h2 className="my-4"> $ {product.price} </h2>
                         <p className="lead"> {product.description} </p>
                         <div className="col-md-12 d-flex flex-column justify-content-center">
-                            <button onClick={()=>handleCart(product)} className="btn btn-outline-primary px-4 py-2 my-1"> {cartBtn} </button>
-                            <NavLink to='/cart' className="btn btn-outline-primary my-2"> Ir al Carrito </NavLink>
+                            <button onClick={()=>handleCart(product)} className="btn btn-outline-primary px-4 py-2 my-2"> {cartBtn} </button>
+                            <NavLink to='/cart' className="btn btn-outline-primary my-2 px-4 py-2"> Ir al Carrito </NavLink>
                         </div>
                     </div>
                 </div>
