@@ -8,7 +8,7 @@ import { addItem, delItem } from './redux/actions/index.js'
 const ProductDetail = () => {
     const [ cartBtn, setCartBtn ] = useState("Añadir al Carrito")
     const proid = useParams();
-    const proDetail = DATA.filter(x=>x.id == proid.id);
+    const proDetail = DATA.filter(x=>x.id === proid.id);
     const product = proDetail[0];
     console.log(product);
 
@@ -28,11 +28,11 @@ const ProductDetail = () => {
         <>
             <div className="container my-5 py-3">
                 <div className="row">
-                    <div className="col-md-6 d-flex justify-content-center mx-auto product ">
-                        <img src={product.image} alt={product.title} height="500px" />
+                    <div className="col-md-6 d-flex justify-content-center mx-auto product">
+                        <img src={product.image}  alt={product.name}  height="400px" width="400px" />
                     </div>
                     <div className="col-md-6 d-flex flex-column justify-content-center">
-                        <h1 className="display-5 fw-bold"> {product.title} </h1>
+                        <h1 className="display-5 fw-bold"> {product.name} </h1>
                         <hr />
                         <h2 className="my-4"> $ {product.price} </h2>
                         <p className="lead"> {product.description} </p>
