@@ -8,49 +8,57 @@ const Footer = () => {
             <div className='container'>
                 <footer className='py-5'>
                     <div className='row'>
-                        <div className='col-3'>
-                            <h4> Magios Shop </h4>
-                        </div>
                         <div className='col-2'>
                             <h5> Secciones </h5>
                             <ul className='nav flex-column'>
-                                <li className='nav-item mb-2'>
+                            <li className='nav-item mb-2'>
                                     <NavLink to='#' className='nav-link p-0 text-primary'> Home </NavLink>
-                                </li>
-                                <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-primary'> Productos </NavLink>
-                                </li>
-                                <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-primary'> Nosotros </NavLink>
-                                </li>
-                                <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-primary'> Contacto </NavLink>
-                                </li>
-                                <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-primary'>  </NavLink>
-                                </li>
+                             </li>
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Productos  </NavLink>
+                             </li>
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Nosotros  </NavLink>
+                             </li>
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Contacto  </NavLink>
+                             </li>
+                            </ul>
+                        </div>
+                        <div className='col-2'> 
+                            <h5> Beneficios </h5>
+                            <ul className='nav flex-column'>
+                            <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'>  Créditos </NavLink>
+                            </li>
+                            <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Servicios </NavLink>
+                             </li>
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Pago Online </NavLink>
+                             </li>
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Descuentos </NavLink>
+                             </li>
                             </ul>
                         </div>
 
                         <div className='col-2'>
-                            <h5> Información </h5>
+                            <h5> Centro de Ayuda </h5>
                             <ul className='nav flex-column'>
-              
-                                <li className='nav-item mb-2'>
-                                <NavLink to='#' className='nav-link p-0 text-primary'>
-                                Centro de Ayuda                            
-                                </NavLink>
-                                </li>
-                                <li className='nav-item mb-2'>
-                                <NavLink to='#' className='nav-link p-0 text-bg-primary'>
-                                Preguntas Frecuentes                            
-                                </NavLink>
-                                </li>
-                 				<li className='nav-item mb-2'>
-                                 <NavLink to='#' className='nav-link p-0 text-primary'>
-                                Terminos y Condiciones
-                                </NavLink>
-                                </li>
+                            <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Preguntas Frecuentes </NavLink>
+                            </li>
+                            <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Terminos y Condiciones </NavLink>
+                             </li>
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Servicio Técnico </NavLink>
+                             </li>
+                             
+                             <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Sucursales </NavLink>
+                             </li>
                             </ul>
                         </div>
                         
