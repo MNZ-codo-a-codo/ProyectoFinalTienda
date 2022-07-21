@@ -18,9 +18,8 @@ const Contact = () => {
                     <div className="col-md-6">
                         <form action="">
                             <div className="mb-3">
-                                <p className='lead mb-4'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore inventore eligendi praesentium, temporibus harum repudiandae,
-                                error esse ex, amet excepturi odio. Libero ipsa omnis dolorum ut ipsam, suscipit nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Optio corporis eveniet perferendis impedit dicta enim eum voluptatem deserunt sapiente repudiandae qui saepe vel rerum sit vitae, ab debitis corrupti voluptas.
+                                <p className='lead mb-4'> Si tienes alguna duda sobre nuestros productos o sobre cualquier otro asunto sobre las ventas,
+                                    productos o sugerencias no dudes en contactarte con nosotros.
                                 </p>
                                 <label for="exampleForm" className="form-label"> Nombre completo </label>
                                 <input type="text" className="form-control" id="exampleForm" placeholder="Jhon Smit"/>

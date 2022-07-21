@@ -33,10 +33,10 @@ const Cart = () => {
 
     const emptyCart = () => {
         return (
-            <div className="px-4 my-5 bg-light rounded-3 py-5">
+            <div className="px-4 my-5 bg-light rounded-3">
                 <div className="container py-4">
                     <div className="row">
-                        <img src="/assets/img/cartEmpty.png" alt="Empty-Cart" height="620px" width="auto" />
+                        <img src="/assets/img/cartEmpty.png" alt="Empty-Cart" height="600px" width="auto" />
                         <h3 className='text-center'> Tu Carrito esta bacio </h3>
                     </div>
                 </div>
@@ -46,11 +46,11 @@ const Cart = () => {
 
     const button = () => {
         return (
-                <div className="container py-4">
-                    <div className="row">
-                        <NavLink to= "/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto"> Procesar tu compra </NavLink>
-                    </div>
+            <div className="container py-4">
+                <div className="row">
+                    <NavLink to= "/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto"> Procesar tu compra </NavLink>
                 </div>
+            </div>
         )
     }
 

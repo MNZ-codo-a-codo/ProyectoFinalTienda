@@ -32,16 +32,19 @@ const Footer = () => {
                         </div>
 
                         <div className='col-2'>
-                            <h5> Otros </h5>
+                            <h5> Centro de ayuda </h5>
                             <ul className='nav flex-column'>
                                 <li className='nav-item mb-2'>
-                                    <NavLink to='#' className='nav-link p-0 text-primary'> Blog </NavLink>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Sucursales </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
                                     <NavLink to='#' className='nav-link p-0 text-primary'> Preguntas frecuentes </NavLink>
                                 </li>
                                 <li className='nav-item mb-2'>
                                     <NavLink to='#' className='nav-link p-0 text-primary'> Reseñas </NavLink>
+                                </li>
+                                <li className='nav-item mb-2'>
+                                    <NavLink to='#' className='nav-link p-0 text-primary'> Servicio Tecnico </NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -67,26 +70,22 @@ const Footer = () => {
                             <p> Copyright &copy; 2022 Los Magios all rigths reserved. </p>
                             <ul className='list-unstyled d-flex'>
                                 <li className='ms-3'>
-                                    <NavLink className='link-primary' to='https://www.instagram.com/'><i className='fa fa-instagram fa-2x'/></NavLink>
+                                    <NavLink className='link-primary' target="_blank" to='https://www.instagram.com'><i className='fa fa-instagram fa-2x'/></NavLink>
                                 </li>
                                 <li className='ms-3'>
-                                    <NavLink className='link-primary' to='https://www.facebook.com/'><i className='fa fa-facebook fa-2x'/></NavLink>
+                                    <NavLink className='link-primary' target="_blank" to='https://www.facebook.com'><i className='fa fa-facebook fa-2x'/></NavLink>
                                 </li>
                                 <li className='ms-3'>
-                                    <NavLink className='link-primary' to='https://www.linkedin.com/'><i className='fa fa-linkedin fa-2x'/></NavLink>
+                                    <NavLink className='link-primary' target="_blank" to='https://www.linkedin.com'><i className='fa fa-linkedin fa-2x'/></NavLink>
                                 </li>
                                 <li className='ms-3'>
-                                    <NavLink className='link-primary' to='/'><i className='fa fa-whatsapp fa-2x'/></NavLink>
+                                    <NavLink className='link-primary' target="_blank" to='/'><i className='fa fa-whatsapp fa-2x'/></NavLink>
                                 </li>
                             </ul>
                         </div>
                  
                     </div>
-                        
-                        
-                    
 
-          
                 </footer>
             </div>
         </footer>
