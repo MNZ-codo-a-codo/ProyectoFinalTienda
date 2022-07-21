@@ -19,10 +19,10 @@ const Cart = () => {
                     <button onClick={()=> handleClose(cartItem)} className="btn-close float-end" aria-label='Cerrar'></button>
                     <div className="row justify-content-center">
                         <div className="col-md-4">
-                            <img src={cartItem.image} alt={cartItem.title} height="200px" width="180px" />
+                            <img src={cartItem.image} alt={cartItem.name} height="200px" width="180px" />
                         </div>
                         <div className="col-md-4"> 
-                            <h3>{cartItem.title}</h3>
+                            <h3>{cartItem.name}</h3>
                             <p className='lead fw-bold'>$ {cartItem.price} </p>
                         </div>
                     </div>
@@ -33,10 +33,10 @@ const Cart = () => {
 
     const emptyCart = () => {
         return (
-            <div className="px-4 my-5 bg-light rounded-3 py-5">
+            <div className="px-4 my-5 bg-light rounded-3">
                 <div className="container py-4">
                     <div className="row">
-                        <img src="/assets/img/cartEmpty.png" alt="Empty-Cart" height="620px" width="auto" />
+                        <img src="/assets/img/cartEmpty.png" alt="Empty-Cart" height="600px" width="auto" />
                         <h3 className='text-center'> Tu Carrito esta bacio </h3>
                     </div>
                 </div>
@@ -46,11 +46,11 @@ const Cart = () => {
 
     const button = () => {
         return (
-                <div className="container py-4">
-                    <div className="row">
-                        <NavLink to= "/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto"> Procesar tu compra </NavLink>
-                    </div>
+            <div className="container py-4">
+                <div className="row">
+                    <NavLink to= "/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto"> Procesar tu compra </NavLink>
                 </div>
+            </div>
         )
     }
 
